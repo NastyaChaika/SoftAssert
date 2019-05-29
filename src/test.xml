@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <parameter name="S1"  value="test" />
+    <parameter name="S2"  value="test" />
+    <parameter name="I1"  value="123" />
+    <parameter name="I2"  value="321" />
+    <parameter name="AI1"  value="{1, 2, 3}" />
+    <parameter name="AI2"  value="{1, 2, 3}" />
+    <parameter name="AS1"  value="{'a', 'b', 'c'}" />
+    <parameter name="AS2"  value="{'a', 'b', 'd'}" />
+    <test name="Tests for Soft Assert">
+        <classes>
+            <class name="tests.TestHelper"/>
+        </classes>
+    </test>
+</suite>
